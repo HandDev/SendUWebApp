@@ -1,0 +1,15 @@
+<step title="Incoming Request" date="2016-05-12T15:07:32.698" instance="4df484" url="/codebakeryMainApp.git/info/refs?service=git-upload-pack" method="GET" type="request" pid="239408,2,10" Connection="Keep-Alive" Pragma="no-cache" Accept="*/*" Accept-Encoding="gzip" Host="codebakerymainapp.scm.azurewebsites.net" User-Agent="git/2.6.4" X-SITE-DEPLOYMENT-ID="codebakeryMainApp" >
+  <step title="InfoRefsService.Execute" date="2016-05-12T15:07:33.120" >
+    <step title="Assuming git repository at D:\home\site\repository" date="2016-05-12T15:07:33.167" /><!-- duration: 0ms -->
+    <step title="InfoRefsService.SmartInfoRefs" date="2016-05-12T15:07:33.182" >
+      <step title="Assuming git repository at D:\home\site\repository" date="2016-05-12T15:07:33.951" /><!-- duration: 0ms -->
+      <step title="Assuming git repository at D:\home\site\repository" date="2016-05-12T15:07:34.472" /><!-- duration: 0ms -->
+      <step title="Assuming git repository at D:\home\site\repository" date="2016-05-12T15:07:34.503" /><!-- duration: 0ms -->
+      <step title="GitExeServer.AdvertiseUploadPack" date="2016-05-12T15:07:34.503" >
+        <step title="Executing external process" date="2016-05-12T15:07:34.503" type="process" path="git.exe" arguments="upload-pack --stateless-rpc --advertise-refs &quot;D:\home\site\repository&quot;" /><!-- duration: 104ms -->
+      </step><!-- duration: 120ms -->
+      <step title="Writing 290 bytes" date="2016-05-12T15:07:34.623" /><!-- duration: 0ms -->
+    </step><!-- duration: 1441ms -->
+  </step><!-- duration: 1503ms -->
+  <step title="Outgoing response" date="2016-05-12T15:07:34.639" type="response" statusCode="200" statusText="OK" Server="Microsoft-IIS/8.0" x-ms-request-id="d54faf0f-95fc-46bd-b63e-9ad2c6d0dc67" Pragma="no-cache" Cache-Control="must-revalidate, no-cache, max-age=0" Expires="Tue, 01 Jan 1980 00:00:00 GMT" Content-Length="290" X-AspNet-Version="4.0.30319" Content-Type="application/x-git-upload-pack-advertisement" /><!-- duration: 0ms -->
+</step><!-- duration: 1941ms -->

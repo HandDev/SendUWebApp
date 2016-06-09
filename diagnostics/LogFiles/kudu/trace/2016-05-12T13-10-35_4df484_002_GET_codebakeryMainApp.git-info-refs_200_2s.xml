@@ -1,0 +1,15 @@
+<step title="Incoming Request" date="2016-05-12T13:10:35.588" instance="4df484" url="/codebakeryMainApp.git/info/refs?service=git-upload-pack" method="GET" type="request" pid="234004,2,7" Connection="Keep-Alive" Pragma="no-cache" Accept="*/*" Accept-Encoding="gzip" Host="codebakerymainapp.scm.azurewebsites.net" User-Agent="git/2.6.4" X-SITE-DEPLOYMENT-ID="codebakeryMainApp" >
+  <step title="InfoRefsService.Execute" date="2016-05-12T13:10:36.651" >
+    <step title="Assuming git repository at D:\home\site\repository" date="2016-05-12T13:10:36.697" /><!-- duration: 0ms -->
+    <step title="InfoRefsService.SmartInfoRefs" date="2016-05-12T13:10:36.713" >
+      <step title="Assuming git repository at D:\home\site\repository" date="2016-05-12T13:10:36.744" /><!-- duration: 0ms -->
+      <step title="Assuming git repository at D:\home\site\repository" date="2016-05-12T13:10:37.217" /><!-- duration: 0ms -->
+      <step title="Assuming git repository at D:\home\site\repository" date="2016-05-12T13:10:37.248" /><!-- duration: 0ms -->
+      <step title="GitExeServer.AdvertiseUploadPack" date="2016-05-12T13:10:37.248" >
+        <step title="Executing external process" date="2016-05-12T13:10:37.264" type="process" path="git.exe" arguments="upload-pack --stateless-rpc --advertise-refs &quot;D:\home\site\repository&quot;" /><!-- duration: 234ms -->
+      </step><!-- duration: 250ms -->
+      <step title="Writing 290 bytes" date="2016-05-12T13:10:37.498" /><!-- duration: 0ms -->
+    </step><!-- duration: 801ms -->
+  </step><!-- duration: 863ms -->
+  <step title="Outgoing response" date="2016-05-12T13:10:37.545" type="response" statusCode="200" statusText="OK" Server="Microsoft-IIS/8.0" x-ms-request-id="0260781e-14d8-4cda-a1c5-44b37efcedc9" Pragma="no-cache" Cache-Control="must-revalidate, no-cache, max-age=0" Expires="Tue, 01 Jan 1980 00:00:00 GMT" Content-Length="290" X-AspNet-Version="4.0.30319" Content-Type="application/x-git-upload-pack-advertisement" /><!-- duration: 17ms -->
+</step><!-- duration: 1974ms -->

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<deployment>
+  <id>0849afac8bf1877747a23bc969b12661b99e3f30</id>
+  <author>박재성</author>
+  <deployer>private1215</deployer>
+  <authorEmail>jspark141515@gmail.com</authorEmail>
+  <message>updated main codebakery main web page
+</message>
+  <progress></progress>
+  <status>Success</status>
+  <statusText></statusText>
+  <lastSuccessEndTime>2016-05-07T03:03:28.1882874Z</lastSuccessEndTime>
+  <receivedTime>2016-05-07T03:03:16.5609203Z</receivedTime>
+  <startTime>2016-05-07T03:03:20.0075921Z</startTime>
+  <endTime>2016-05-07T03:03:28.1882874Z</endTime>
+  <complete>True</complete>
+  <is_temp>False</is_temp>
+  <is_readonly>False</is_readonly>
+</deployment>

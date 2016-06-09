@@ -1,0 +1,54 @@
+2016-05-06T12:58:43.0665823Z,Updating branch 'master'.,38d2b622-5270-4682-9632-dd69fbab0ca5,0
+2016-05-06T12:58:43.8789512Z,Updating submodules.,038c2174-8455-41ca-9be8-6f86636b28de,0
+2016-05-06T12:58:43.9414575Z,Preparing deployment for commit id 'a681d88372'.,ca0c64eb-a628-4304-8451-242e94c32f5c,0
+2016-05-06T12:58:44.6951840Z,Generating deployment script.,991d0de7-3fa3-4aee-a912-e1963ed1965b,0
+	2016-05-06T12:58:44.7420398Z,Using cached version of deployment script (command: 'azure -y --no-dot-deployment -r "D:\home\site\repository" -o "D:\home\site\deployments\tools" --node --sitePath "D:\home\site\repository"').,,0
+2016-05-06T12:58:44.7889127Z,Running deployment command...,c7fd7a48-1d23-4953-90ca-86d8db7465cb,0
+	2016-05-06T12:58:44.7889127Z,Command: "D:\home\site\deployments\tools\deploy.cmd",,0
+	2016-05-06T12:58:45.3670479Z,Handling node.js deployment.,,0
+	2016-05-06T12:58:45.7916624Z,KuduSync.NET from: 'D:\home\site\repository' to: 'D:\home\site\wwwroot',,0
+	2016-05-06T12:58:45.8072875Z,Copying file: 'diagnostics.zip',,0
+	2016-05-06T12:58:45.8230264Z,Copying file: 'npm-debug.log',,0
+	2016-05-06T12:58:45.8230264Z,Copying file: 'config\config.js',,0
+	2016-05-06T12:58:45.8386651Z,Copying file: 'diagnostics\deployments\active',,0
+	2016-05-06T12:58:45.8542866Z,Copying file: 'diagnostics\deployments\10b2835b3232ab91332c664b2d4634d8a2958da7\log.log',,0
+	2016-05-06T12:58:45.8542866Z,Copying file: 'diagnostics\deployments\10b2835b3232ab91332c664b2d4634d8a2958da7\manifest',,0
+	2016-05-06T12:58:45.8699152Z,Copying file: 'diagnostics\deployments\10b2835b3232ab91332c664b2d4634d8a2958da7\status.xml',,0
+	2016-05-06T12:58:45.8855359Z,Copying file: 'diagnostics\deployments\a2c1df571436d0ef267dcb1d3162729237192d61\log.log',,0
+	2016-05-06T12:58:45.8855359Z,Copying file: 'diagnostics\deployments\a2c1df571436d0ef267dcb1d3162729237192d61\manifest',,0
+	2016-05-06T12:58:45.8855359Z,Copying file: 'diagnostics\deployments\a2c1df571436d0ef267dcb1d3162729237192d61\status.xml',,0
+	2016-05-06T12:58:45.9021840Z,Copying file: 'diagnostics\deployments\c0eba55c1b62ea253ac0157e80269bd58ddbe992\log.log',,0
+	2016-05-06T12:58:45.9021840Z,Copying file: 'diagnostics\deployments\c0eba55c1b62ea253ac0157e80269bd58ddbe992\manifest',,0
+	2016-05-06T12:58:46.0744789Z,Copying file: 'diagnostics\deployments\c0eba55c1b62ea253ac0157e80269bd58ddbe992\status.xml',,0
+	2016-05-06T12:58:46.0744789Z,Copying file: 'diagnostics\deployments\df00889066a4e7132a424a5482baf8bf65c30432\log.log',,0
+	2016-05-06T12:58:46.0900898Z,Copying file: 'diagnostics\deployments\df00889066a4e7132a424a5482baf8bf65c30432\manifest',,0
+	2016-05-06T12:58:46.0900898Z,Copying file: 'diagnostics\deployments\df00889066a4e7132a424a5482baf8bf65c30432\status.xml',,0
+	2016-05-06T12:58:46.1057163Z,Copying file: 'diagnostics\deployments\tools\deploymentCacheKey',,0
+	2016-05-06T12:58:46.1057163Z,Copying file: 'diagnostics\LogFiles\Application\logging-errors.txt',,0
+	2016-05-06T12:58:46.1213380Z,Copying file: 'diagnostics\LogFiles\kudu\trace\2016-05-06T12-15-44_4df484_001_Startup_GET_codebakeryMainApp.git-info-refs_0s.xml',,0
+	2016-05-06T12:58:46.1213380Z,Copying file: 'diagnostics\LogFiles\kudu\trace\2016-05-06T12-15-44_4df484_002_GET_codebakeryMainApp.git-info-refs_200_2s.xml',,0
+	2016-05-06T12:58:46.1369678Z,Copying file: 'diagnostics\LogFiles\kudu\trace\2016-05-06T12-15-46_4df484_003_POST_codebakeryMainApp.git-git-receive-pack_200_4s.xml',,0
+	2016-05-06T12:58:46.1369678Z,Copying file: 'diagnostics\LogFiles\kudu\trace\2016-05-06T12-15-47_4df484_001_kudu.exe_3s.xml',,0
+	2016-05-06T12:58:46.1525955Z,Copying file: 'diagnostics\LogFiles\kudu\trace\2016-05-06T12-23-07_4df484_004_GET_codebakeryMainApp.git-info-refs_200_0s.xml',,0
+	2016-05-06T12:58:46.1682142Z,Copying file: 'diagnostics\LogFiles\kudu\trace\2016-05-06T12-23-07_4df484_005_POST_codebakeryMainApp.git-git-receive-pack_200_32s.xml',,0
+	2016-05-06T12:58:46.1682142Z,Copying file: 'diagnostics\LogFiles\kudu\trace\2016-05-06T12-23-08_4df484_001_kudu.exe_31s.xml',,0
+	2016-05-06T12:58:46.1848015Z,Copying file: 'diagnostics\LogFiles\kudu\trace\2016-05-06T12-32-06_4df484_006_GET_codebakeryMainApp.git-info-refs_200_0s.xml',,0
+	2016-05-06T12:58:46.1848015Z,Copying file: 'diagnostics\LogFiles\kudu\trace\2016-05-06T12-32-07_4df484_007_POST_codebakeryMainApp.git-git-receive-pack_200_8s.xml',,0
+	2016-05-06T12:58:46.2004351Z,Copying file: 'diagnostics\LogFiles\kudu\trace\2016-05-06T12-32-08_4df484_001_kudu.exe_7s.xml',,0
+	2016-05-06T12:58:46.2004351Z,Copying file: 'diagnostics\LogFiles\kudu\trace\2016-05-06T12-41-08_4df484_008_GET_codebakeryMainApp.git-info-refs_200_0s.xml',,0
+	2016-05-06T12:58:46.2160638Z,Copying file: 'diagnostics\LogFiles\kudu\trace\2016-05-06T12-41-09_4df484_009_POST_codebakeryMainApp.git-git-receive-pack_200_9s.xml',,0
+	2016-05-06T12:58:46.2160638Z,Copying file: 'diagnostics\LogFiles\kudu\trace\2016-05-06T12-41-10_4df484_001_kudu.exe_7s.xml',,0
+	2016-05-06T12:58:46.2160638Z,Copying file: 'diagnostics\LogFiles\kudu\trace\2016-05-06T12-42-00_4df484_010_Shutdown_0s.xml',,0
+	2016-05-06T12:58:46.2316962Z,Copying file: 'diagnostics\LogFiles\kudu\trace\2016-05-06T12-43-59_4df484_001_Startup_GET_dump_0s.xml',,0
+	2016-05-06T12:58:46.2316962Z,Copying file: 'diagnostics\LogFiles\kudu\trace\2016-05-06T12-43-59_4df484_002_GET_dump_pending.xml',,0
+	2016-05-06T12:58:46.2316962Z,Copying file: 'diagnostics\LogFiles\kudu\trace\RD0003FF4784DB-3f0b0f70-dbed-4fea-87b7-2c206a3efca6.txt',,0
+	2016-05-06T12:58:46.6535727Z,Start script "app.js" from package.json is not found.,,0
+	2016-05-06T12:58:46.6691921Z,Looking for app.js/server.js under site root.,,0
+	2016-05-06T12:58:46.6691921Z,Using start-up script server.js,,0
+	2016-05-06T12:58:46.6691921Z,Generated web.config.,,0
+	2016-05-06T12:58:46.6848167Z,The package.json file does not specify node.js engine version constraints.,,0
+	2016-05-06T12:58:46.6848167Z,The node.js application will run with the default node.js version 4.2.3.,,0
+	2016-05-06T12:58:46.7004424Z,Selected npm version 3.5.1,,0
+	2016-05-06T12:58:50.9894806Z,Finished successfully.,,0
+2016-05-06T12:58:51.0370497Z,Running post deployment command(s)...,45a7f5c5-bad1-4d31-aea4-08c97ab59efc,0
+2016-05-06T12:58:51.1308090Z,Deployment successful.,422898c2-75bd-4158-b6fd-6558673ad30c,0

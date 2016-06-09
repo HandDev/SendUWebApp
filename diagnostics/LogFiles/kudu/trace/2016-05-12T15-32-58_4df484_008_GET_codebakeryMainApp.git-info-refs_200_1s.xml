@@ -1,0 +1,16 @@
+<step title="Incoming Request" date="2016-05-12T15:32:58.893" instance="4df484" url="/codebakeryMainApp.git/info/refs?service=git-upload-pack" method="GET" type="request" pid="239408,2,36" Connection="Keep-Alive" Pragma="no-cache" Accept="*/*" Accept-Encoding="gzip" Host="codebakerymainapp.scm.azurewebsites.net" User-Agent="git/2.6.4" X-SITE-DEPLOYMENT-ID="codebakeryMainApp" >
+  <step title="Cleanup Xml Logs" date="2016-05-12T15:32:58.893" /><!-- duration: 0ms -->
+  <step title="InfoRefsService.Execute" date="2016-05-12T15:32:58.910" >
+    <step title="Assuming git repository at D:\home\site\repository" date="2016-05-12T15:32:58.925" /><!-- duration: 0ms -->
+    <step title="InfoRefsService.SmartInfoRefs" date="2016-05-12T15:32:58.925" >
+      <step title="Assuming git repository at D:\home\site\repository" date="2016-05-12T15:32:58.941" /><!-- duration: 0ms -->
+      <step title="Assuming git repository at D:\home\site\repository" date="2016-05-12T15:32:59.491" /><!-- duration: 0ms -->
+      <step title="Assuming git repository at D:\home\site\repository" date="2016-05-12T15:32:59.507" /><!-- duration: 0ms -->
+      <step title="GitExeServer.AdvertiseUploadPack" date="2016-05-12T15:32:59.523" >
+        <step title="Executing external process" date="2016-05-12T15:32:59.523" type="process" path="git.exe" arguments="upload-pack --stateless-rpc --advertise-refs &quot;D:\home\site\repository&quot;" /><!-- duration: 126ms -->
+      </step><!-- duration: 126ms -->
+      <step title="Writing 290 bytes" date="2016-05-12T15:32:59.648" /><!-- duration: 0ms -->
+    </step><!-- duration: 739ms -->
+  </step><!-- duration: 755ms -->
+  <step title="Outgoing response" date="2016-05-12T15:32:59.664" type="response" statusCode="200" statusText="OK" Server="Microsoft-IIS/8.0" x-ms-request-id="294c18bb-7df1-4b8b-ad01-fad3bca667f9" Pragma="no-cache" Cache-Control="must-revalidate, no-cache, max-age=0" Expires="Tue, 01 Jan 1980 00:00:00 GMT" Content-Length="290" X-AspNet-Version="4.0.30319" Content-Type="application/x-git-upload-pack-advertisement" /><!-- duration: 0ms -->
+</step><!-- duration: 771ms -->

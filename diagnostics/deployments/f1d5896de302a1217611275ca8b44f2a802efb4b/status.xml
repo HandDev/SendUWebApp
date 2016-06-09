@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<deployment>
+  <id>f1d5896de302a1217611275ca8b44f2a802efb4b</id>
+  <author>박재성</author>
+  <deployer>private1215</deployer>
+  <authorEmail>jspark141515@gmail.com</authorEmail>
+  <message>test signup page
+</message>
+  <progress></progress>
+  <status>Success</status>
+  <statusText></statusText>
+  <lastSuccessEndTime>2016-05-07T02:26:03.5954011Z</lastSuccessEndTime>
+  <receivedTime>2016-05-07T02:25:50.4051661Z</receivedTime>
+  <startTime>2016-05-07T02:25:51.9374401Z</startTime>
+  <endTime>2016-05-07T02:26:03.5954011Z</endTime>
+  <complete>True</complete>
+  <is_temp>False</is_temp>
+  <is_readonly>False</is_readonly>
+</deployment>

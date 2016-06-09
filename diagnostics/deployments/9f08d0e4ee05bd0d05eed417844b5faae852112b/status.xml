@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<deployment>
+  <id>9f08d0e4ee05bd0d05eed417844b5faae852112b</id>
+  <author>박재성</author>
+  <deployer>private1215</deployer>
+  <authorEmail>jspark141515@gmail.com</authorEmail>
+  <message>/userAuth/signup/insertData -&gt; get
+</message>
+  <progress></progress>
+  <status>Success</status>
+  <statusText></statusText>
+  <lastSuccessEndTime>2016-05-12T16:58:27.1304309Z</lastSuccessEndTime>
+  <receivedTime>2016-05-12T16:58:19.1308041Z</receivedTime>
+  <startTime>2016-05-12T16:58:19.7574264Z</startTime>
+  <endTime>2016-05-12T16:58:27.1304309Z</endTime>
+  <complete>True</complete>
+  <is_temp>False</is_temp>
+  <is_readonly>False</is_readonly>
+</deployment>

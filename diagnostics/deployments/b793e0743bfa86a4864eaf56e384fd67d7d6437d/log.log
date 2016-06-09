@@ -1,0 +1,27 @@
+2016-05-08T11:53:30.9736174Z,Updating branch 'master'.,c6db285b-930c-4900-8909-ab79cc09d901,0
+2016-05-08T11:53:31.4590117Z,Updating submodules.,c67ea752-43a1-41f7-88c2-6d2bbd5554ad,0
+2016-05-08T11:53:31.5058870Z,Preparing deployment for commit id 'b793e0743b'.,2f3fd113-a289-4162-a91e-7cf42e92dd17,0
+2016-05-08T11:53:32.2382469Z,Generating deployment script.,4ec98028-9cf9-4692-a1ce-b74b92075aed,0
+	2016-05-08T11:53:32.2851603Z,Using cached version of deployment script (command: 'azure -y --no-dot-deployment -r "D:\home\site\repository" -o "D:\home\site\deployments\tools" --node --sitePath "D:\home\site\repository"').,,0
+2016-05-08T11:53:32.3163765Z,Running deployment command...,71bcd76b-91bf-4605-8874-6500c3abd601,0
+	2016-05-08T11:53:32.3163765Z,Command: "D:\home\site\deployments\tools\deploy.cmd",,0
+	2016-05-08T11:53:32.9375994Z,Handling node.js deployment.,,0
+	2016-05-08T11:53:33.7051211Z,KuduSync.NET from: 'D:\home\site\repository' to: 'D:\home\site\wwwroot',,0
+	2016-05-08T11:53:33.7207443Z,Copying file: 'npm-debug.log',,0
+	2016-05-08T11:53:33.7207443Z,Copying file: 'server.js',,0
+	2016-05-08T11:53:33.7363852Z,Copying file: 'app\controllers\home.js',,0
+	2016-05-08T11:53:33.7363852Z,Copying file: 'app\models\user.js',,0
+	2016-05-08T11:53:33.7363852Z,Deleting file: 'app\views\signup.ejs',,0
+	2016-05-08T11:53:33.7519948Z,Copying file: 'app\views\selectService.ejs',,0
+	2016-05-08T11:53:33.7519948Z,Copying file: 'app\views\signup_form.ejs',,0
+	2016-05-08T11:53:33.7676254Z,Copying file: 'app\views\terms.ejs',,0
+	2016-05-08T11:53:33.7676254Z,Copying file: 'app\views\welcome.ejs',,0
+	2016-05-08T11:53:33.7832507Z,Copying file: 'config\config.js',,0
+	2016-05-08T11:53:37.7521002Z,Using start-up script server.js from package.json.,,0
+	2016-05-08T11:53:37.7677535Z,Generated web.config.,,0
+	2016-05-08T11:53:37.7677535Z,The package.json file does not specify node.js engine version constraints.,,0
+	2016-05-08T11:53:37.7833536Z,The node.js application will run with the default node.js version 4.2.3.,,0
+	2016-05-08T11:53:37.7833536Z,Selected npm version 3.5.1,,0
+	2016-05-08T11:53:42.1428414Z,Finished successfully.,,0
+2016-05-08T11:53:42.2209642Z,Running post deployment command(s)...,daa3ba86-1aef-4bc5-bacf-0e5bb244a286,0
+2016-05-08T11:53:42.3164598Z,Deployment successful.,2fb27afd-fc8c-4e69-87fc-69d0353ae38a,0

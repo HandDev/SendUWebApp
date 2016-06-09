@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<deployment>
+  <id>10b2835b3232ab91332c664b2d4634d8a2958da7</id>
+  <author>박재성</author>
+  <deployer>private1215</deployer>
+  <authorEmail>jspark141515@gmail.com</authorEmail>
+  <message>test route
+</message>
+  <progress></progress>
+  <status>Success</status>
+  <statusText></statusText>
+  <lastSuccessEndTime>2016-05-06T12:32:14.8266075Z</lastSuccessEndTime>
+  <receivedTime>2016-05-06T12:32:08.1973189Z</receivedTime>
+  <startTime>2016-05-06T12:32:08.6660467Z</startTime>
+  <endTime>2016-05-06T12:32:14.8266075Z</endTime>
+  <complete>True</complete>
+  <is_temp>False</is_temp>
+  <is_readonly>False</is_readonly>
+</deployment>

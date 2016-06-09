@@ -1,0 +1,20 @@
+2016-05-12T03:07:28.7262591Z,Updating branch 'master'.,5ed3a103-5d4c-4dfe-9f6e-07a463c7277d,0
+2016-05-12T03:07:30.8946810Z,Updating submodules.,727d67eb-1f1d-485e-9e08-2dc88de884bf,0
+2016-05-12T03:07:30.9415626Z,Preparing deployment for commit id '7c5f589b63'.,0f379c2d-a21a-48d6-a23c-a9492a861021,0
+2016-05-12T03:07:31.8886002Z,Generating deployment script.,bbe5ff84-bdb4-4c17-b206-8ba59efa0392,0
+	2016-05-12T03:07:31.9361185Z,Using cached version of deployment script (command: 'azure -y --no-dot-deployment -r "D:\home\site\repository" -o "D:\home\site\deployments\tools" --node --sitePath "D:\home\site\repository"').,,0
+2016-05-12T03:07:31.9673561Z,Running deployment command...,58613484-99fe-4c18-b70e-99fbc6011aae,0
+	2016-05-12T03:07:31.9829886Z,Command: "D:\home\site\deployments\tools\deploy.cmd",,0
+	2016-05-12T03:07:32.7330167Z,Handling node.js deployment.,,0
+	2016-05-12T03:07:34.4011166Z,KuduSync.NET from: 'D:\home\site\repository' to: 'D:\home\site\wwwroot',,0
+	2016-05-12T03:07:34.4011166Z,Copying file: 'npm-debug.log',,0
+	2016-05-12T03:07:34.4167618Z,Copying file: 'app\controllers\home.js',,0
+	2016-05-12T03:07:34.4167618Z,Copying file: 'app\models\user.js',,0
+	2016-05-12T03:07:34.8542699Z,Using start-up script server.js from package.json.,,0
+	2016-05-12T03:07:34.8698836Z,Generated web.config.,,0
+	2016-05-12T03:07:34.9480083Z,The package.json file does not specify node.js engine version constraints.,,0
+	2016-05-12T03:07:34.9480083Z,The node.js application will run with the default node.js version 4.2.3.,,0
+	2016-05-12T03:07:34.9480083Z,Selected npm version 3.5.1,,0
+	2016-05-12T03:07:40.8582689Z,Finished successfully.,,0
+2016-05-12T03:07:40.8895146Z,Running post deployment command(s)...,58ed47e0-25fe-43e8-97da-60a980d62ad9,0
+2016-05-12T03:07:40.9832678Z,Deployment successful.,5158ed51-0426-497f-b69a-6700f8185d73,0

@@ -1,0 +1,25 @@
+<step title="Executing external process" date="2016-05-07T02:25:50.233" instance="4df484" type="process" path="kudu.exe" arguments="D:\home\site C:\Program Files (x86)\SiteExtensions\Kudu\54.50506.2209\msbuild" >
+  <step title="Cleanup Xml Logs" date="2016-05-07T02:25:50.248" /><!-- duration: 16ms -->
+  <step title="DeploymentManager.Deploy(id)" date="2016-05-07T02:25:50.362" >
+    <step title="Collecting changeset information" date="2016-05-07T02:25:50.373" /><!-- duration: 64ms -->
+    <step title="Updating to specific changeset" date="2016-05-07T02:25:50.452" /><!-- duration: 1360ms -->
+    <step title="Updating submodules" date="2016-05-07T02:25:51.812" /><!-- duration: 63ms -->
+    <step title="Determining deployment builder" date="2016-05-07T02:25:51.968" >
+      <step title="Builder is NodeSiteBuilder" date="2016-05-07T02:25:52.422" /><!-- duration: 0ms -->
+    </step><!-- duration: 454ms -->
+    <step title="Copying SSH keys" date="2016-05-07T02:25:52.469" /><!-- duration: 0ms -->
+    <step title="Building" date="2016-05-07T02:25:52.469" >
+      <step title="Generating deployment script" date="2016-05-07T02:25:52.516" >
+        <step title="Executing external process" date="2016-05-07T02:25:52.564" type="process" path="starter.cmd" arguments="&quot;c:\Program Files (x86)\SiteExtensions\Kudu\54.50506.2209\bin\node_modules\.bin\kuduscript.cmd&quot; -y --no-dot-deployment -r &quot;D:\home\site\repository&quot; -o &quot;D:\home\site\deployments\tools&quot; --node --sitePath &quot;D:\home\site\repository&quot;" /><!-- duration: 4139ms -->
+        <step title="Saved cached version of the deployment script for command -y --no-dot-deployment -r &quot;D:\home\site\repository&quot; -o &quot;D:\home\site\deployments\tools&quot; --node --sitePath &quot;D:\home\site\repository&quot;" date="2016-05-07T02:25:56.719" /><!-- duration: 0ms -->
+      </step><!-- duration: 4203ms -->
+      <step title="Executing external process" date="2016-05-07T02:25:56.782" type="process" path="starter.cmd" arguments="&quot;D:\home\site\deployments\tools\deploy.cmd&quot;" /><!-- duration: 6672ms -->
+      <step title="AutoSwap is not enabled" date="2016-05-07T02:26:03.517" /><!-- duration: 0ms -->
+      <step title="FunctionManager.SyncTriggers" date="2016-05-07T02:26:03.532" >
+        <step title="This is not a function-enabled site!" date="2016-05-07T02:26:03.532" /><!-- duration: 0ms -->
+      </step><!-- duration: 16ms -->
+    </step><!-- duration: 11298ms -->
+  </step><!-- duration: 13405ms -->
+  <step title="Cleaning up temp files" date="2016-05-07T02:26:03.767" /><!-- duration: 16ms -->
+  <step title="WebHooksManager.PublishEventAsync: PostDeployment" date="2016-05-07T02:26:03.798" /><!-- duration: 313ms -->
+</step><!-- duration: 14003ms -->

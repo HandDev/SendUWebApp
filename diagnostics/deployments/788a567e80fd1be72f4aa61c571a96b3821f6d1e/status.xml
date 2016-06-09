@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<deployment>
+  <id>788a567e80fd1be72f4aa61c571a96b3821f6d1e</id>
+  <author>박재성</author>
+  <deployer>private1215</deployer>
+  <authorEmail>jspark141515@gmail.com</authorEmail>
+  <message>npm install jsonwebtoken --save
+</message>
+  <progress></progress>
+  <status>Success</status>
+  <statusText></statusText>
+  <lastSuccessEndTime>2016-05-12T17:16:28.0781212Z</lastSuccessEndTime>
+  <receivedTime>2016-05-12T17:16:02.2948254Z</receivedTime>
+  <startTime>2016-05-12T17:16:04.5235656Z</startTime>
+  <endTime>2016-05-12T17:16:28.0781212Z</endTime>
+  <complete>True</complete>
+  <is_temp>False</is_temp>
+  <is_readonly>False</is_readonly>
+</deployment>

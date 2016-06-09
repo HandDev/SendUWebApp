@@ -1,0 +1,2 @@
+<step title="Incoming Request" date="2016-05-12T18:25:06.867" instance="4df484" url="/dump" method="GET" type="request" pid="246688,2,8" Connection="Keep-Alive" Content-Length="0" Accept-Charset="UTF-8" Host="codebakerymainapp.scm.azurewebsites.net" User-Agent="WindowsAzureXplatCLI/0.9.20" X-SITE-DEPLOYMENT-ID="codebakeryMainApp" >
+  <step title="ZipStreamContent.OnZip" date="2016-05-12T18:25:07.320" 

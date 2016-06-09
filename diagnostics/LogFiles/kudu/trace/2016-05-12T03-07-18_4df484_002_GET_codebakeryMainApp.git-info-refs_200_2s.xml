@@ -1,0 +1,13 @@
+<step title="Incoming Request" date="2016-05-12T03:07:18.811" instance="4df484" url="/codebakeryMainApp.git/info/refs?service=git-receive-pack" method="GET" type="request" pid="222576,2,7" Connection="Keep-Alive" Pragma="no-cache" Accept="*/*" Accept-Encoding="gzip" Host="codebakerymainapp.scm.azurewebsites.net" User-Agent="git/2.5.4 (Apple Git-61)" X-SITE-DEPLOYMENT-ID="codebakeryMainApp" >
+  <step title="InfoRefsService.Execute" date="2016-05-12T03:07:19.889" >
+    <step title="Assuming git repository at D:\home\site\repository" date="2016-05-12T03:07:20.342" /><!-- duration: 0ms -->
+    <step title="InfoRefsService.SmartInfoRefs" date="2016-05-12T03:07:20.342" >
+      <step title="Assuming git repository at D:\home\site\repository" date="2016-05-12T03:07:20.358" /><!-- duration: 0ms -->
+      <step title="GitExeServer.AdvertiseReceivePack" date="2016-05-12T03:07:20.358" >
+        <step title="Executing external process" date="2016-05-12T03:07:20.373" type="process" path="git.exe" arguments="receive-pack --stateless-rpc --advertise-refs &quot;D:\home\site\repository&quot;" /><!-- duration: 671ms -->
+      </step><!-- duration: 687ms -->
+      <step title="Writing 185 bytes" date="2016-05-12T03:07:21.044" /><!-- duration: 0ms -->
+    </step><!-- duration: 718ms -->
+  </step><!-- duration: 1171ms -->
+  <step title="Outgoing response" date="2016-05-12T03:07:21.091" type="response" statusCode="200" statusText="OK" Server="Microsoft-IIS/8.0" x-ms-request-id="1b26f8d2-c200-4ae5-87f7-29dc0b364be5" Pragma="no-cache" Cache-Control="must-revalidate, no-cache, max-age=0" Expires="Tue, 01 Jan 1980 00:00:00 GMT" Content-Length="185" X-AspNet-Version="4.0.30319" Content-Type="application/x-git-receive-pack-advertisement" /><!-- duration: 16ms -->
+</step><!-- duration: 2296ms -->

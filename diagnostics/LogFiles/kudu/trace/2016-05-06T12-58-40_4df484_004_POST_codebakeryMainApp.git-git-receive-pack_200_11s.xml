@@ -1,0 +1,11 @@
+<step title="Incoming Request" date="2016-05-06T12:58:40.539" instance="4df484" url="/codebakeryMainApp.git/git-receive-pack" method="POST" type="request" pid="59528,2,19" Connection="Keep-Alive" Content-Length="37139" Content-Type="application/x-git-receive-pack-request" Accept="application/x-git-receive-pack-result" Accept-Encoding="gzip" Host="codebakerymainapp.scm.azurewebsites.net" User-Agent="git/2.5.4 (Apple Git-61)" X-SITE-DEPLOYMENT-ID="codebakeryMainApp" >
+  <step title="RpcService.ReceivePack" date="2016-05-06T12:58:40.603" >
+    <step title="Assuming git repository at D:\home\site\repository" date="2016-05-06T12:58:40.619" /><!-- duration: 0ms -->
+    <step title="Assuming git repository at D:\home\site\repository" date="2016-05-06T12:58:40.634" /><!-- duration: 0ms -->
+    <step title="Creating temporary deployment" date="2016-05-06T12:58:40.810" /><!-- duration: 47ms -->
+    <step title="GitExeServer.Receive" date="2016-05-06T12:58:40.873" >
+      <step title="Executing external process" date="2016-05-06T12:58:40.873" type="process" path="git.exe" arguments="receive-pack --stateless-rpc &quot;D:\home\site\repository&quot;" /><!-- duration: 10963ms -->
+    </step><!-- duration: 10963ms -->
+  </step><!-- duration: 11284ms -->
+  <step title="Outgoing response" date="2016-05-06T12:58:51.887" type="response" statusCode="200" statusText="OK" Server="Microsoft-IIS/8.0" Expires="Fri, 01 Jan 1980 00:00:00 GMT" Pragma="no-cache" Cache-Control="no-cache, max-age=0, must-revalidate" X-AspNet-Version="4.0.30319" Content-Type="application/x-git-receive-pack-result" /><!-- duration: 0ms -->
+</step><!-- duration: 11348ms -->
