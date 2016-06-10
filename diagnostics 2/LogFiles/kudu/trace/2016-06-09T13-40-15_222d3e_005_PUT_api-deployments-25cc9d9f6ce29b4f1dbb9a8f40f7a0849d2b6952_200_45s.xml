@@ -1,0 +1,28 @@
+<step title="Incoming Request" date="2016-06-09T13:40:15.919" instance="222d3e" url="/api/deployments/25cc9d9f6ce29b4f1dbb9a8f40f7a0849d2b6952?api-version=2015-08-01" method="PUT" type="request" pid="4520,2,10" Connection="Keep-Alive" Content-Length="17" Content-Type="application/json" Accept="application/json" Accept-Encoding="gzip, deflate" Accept-Language="ko" Expect="100-continue" Host="sendumain.scm.azurewebsites.net" Referer="https://management.azure.com/subscriptions/9b45daa0-77a0-4bec-89fc-e5316798bc96/resourcegroups/SendU/providers/Microsoft.Web/sites/SendUMain/deployments/25cc9d9f6ce29b4f1dbb9a8f40f7a0849d2b6952?api-version=2015-08-01" User-Agent="Portal-Exp/5.12.6.13 (Websites) Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/601.6.17 (KHTML%2C like Gecko) Version/9.1.1 Safari/601.6.17" x-ms-version="2015-02-01" x-ms-client-request-id="21d1f486-953c-4a5a-9be5-beb99cc4902f" x-ms-client-session-id="3891564cb4774b9a9acec7aea482ad57" x-ms-correlation-request-id="574978dc-d352-4725-9d19-c2c357b57f4b" x-ms-routing-request-id="SOUTHEASTASIA:20160609T134014Z:574978dc-d352-4725-9d19-c2c357b57f4b" x-ms-client-location="southeastasia" x-ms-client-ip-address="207.46.236.25" x-ms-client-audience="https://management.core.windows.net/" x-ms-client-app-id="c44b4083-3bb0-49c1-b47d-974e53cbdf3c" x-ms-client-app-id-acr="2" x-ms-client-tenant-id="42e48ed5-0596-43a2-948a-5eef39111754" x-ms-client-issuer="https://sts.windows.net/42e48ed5-0596-43a2-948a-5eef39111754/" x-ms-client-object-id="4ffe4cc6-1876-4f13-8944-44f90ea317d8" x-ms-client-principal-id="00034001B1717A49" x-ms-client-authorization-source="Legacy" x-ms-client-identity-provider="live.com" x-ms-client-wids="62e90394-69f5-4237-9190-012177145e10" x-ms-client-authentication-methods="pwd" x-ms-from-geomaster="true" x-ms-via-extensions-route="true" x-ms-geo-location="Japan East" X-SITE-DEPLOYMENT-ID="SendUMain" >
+  <step title="DeploymentService.Deploy(id)" date="2016-06-09T13:40:16.138" >
+    <step title="Assuming git repository at D:\home\site\repository" date="2016-06-09T13:40:16.200" /><!-- duration: 0ms -->
+    <step title="Assuming git repository at D:\home\site\repository" date="2016-06-09T13:40:16.263" /><!-- duration: 0ms -->
+    <step title="DeploymentManager.Deploy(id)" date="2016-06-09T13:40:16.357" >
+      <step title="Collecting changeset information" date="2016-06-09T13:40:16.372" /><!-- duration: 47ms -->
+      <step title="Updating to specific changeset" date="2016-06-09T13:40:16.450" /><!-- duration: 9416ms -->
+      <step title="Updating submodules" date="2016-06-09T13:40:25.867" /><!-- duration: 48ms -->
+      <step title="Determining deployment builder" date="2016-06-09T13:40:26.009" >
+        <step title="Builder is NodeSiteBuilder" date="2016-06-09T13:40:26.150" /><!-- duration: 0ms -->
+      </step><!-- duration: 156ms -->
+      <step title="Copying SSH keys" date="2016-06-09T13:40:26.181" /><!-- duration: 0ms -->
+      <step title="Building" date="2016-06-09T13:40:26.196" >
+        <step title="Generating deployment script" date="2016-06-09T13:40:26.228" >
+          <step title="Using cached version of the deployment script for command: -y --no-dot-deployment -r &quot;D:\home\site\repository&quot; -o &quot;D:\home\site\deployments\tools&quot; --node --sitePath &quot;D:\home\site\repository&quot;" date="2016-06-09T13:40:26.275" /><!-- duration: 0ms -->
+        </step><!-- duration: 62ms -->
+        <step title="Executing external process" date="2016-06-09T13:40:26.353" type="process" path="starter.cmd" arguments="&quot;D:\home\site\deployments\tools\deploy.cmd&quot;" /><!-- duration: 34396ms -->
+        <step title="AutoSwap is not enabled" date="2016-06-09T13:41:00.811" /><!-- duration: 0ms -->
+        <step title="FunctionManager.SyncTriggers" date="2016-06-09T13:41:00.827" >
+          <step title="This is not a function-enabled site!" date="2016-06-09T13:41:00.827" /><!-- duration: 0ms -->
+        </step><!-- duration: 0ms -->
+      </step><!-- duration: 34759ms -->
+    </step><!-- duration: 44599ms -->
+    <step title="Cleaning up temp files" date="2016-06-09T13:41:00.955" /><!-- duration: 0ms -->
+    <step title="WebHooksManager.PublishEventAsync: PostDeployment" date="2016-06-09T13:41:00.971" /><!-- duration: 62ms -->
+  </step><!-- duration: 45036ms -->
+  <step title="Outgoing response" date="2016-06-09T13:41:01.174" type="response" statusCode="200" statusText="OK" Server="Microsoft-IIS/8.0" x-ms-request-id="e8676b77-aa00-43c1-8f6b-ed8944dcc0b7" Cache-Control="private" X-AspNet-Version="4.0.30319" /><!-- duration: 0ms -->
+</step><!-- duration: 45255ms -->

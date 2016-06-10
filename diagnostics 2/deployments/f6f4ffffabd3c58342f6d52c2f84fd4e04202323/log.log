@@ -1,0 +1,59 @@
+2016-06-10T13:14:14.1217003Z,Updating submodules.,e245f1b3-75ca-45bc-b917-283d0c2048e0,0
+2016-06-10T13:14:14.1529511Z,Preparing deployment for commit id 'f6f4ffffab'.,8c2fe302-410d-4122-8875-d144e4a0fb23,0
+2016-06-10T13:14:14.4342087Z,Generating deployment script.,cae4ac16-3ee7-41e8-9f63-088169bd0c22,0
+	2016-06-10T13:14:14.4811087Z,Using cached version of deployment script (command: 'azure -y --no-dot-deployment -r "D:\home\site\repository" -o "D:\home\site\deployments\tools" --node --sitePath "D:\home\site\repository"').,,0
+2016-06-10T13:14:14.5123791Z,Running deployment command...,139aeeac-f754-4987-9e70-c3b7cebf13e8,0
+	2016-06-10T13:14:14.5123791Z,Command: "D:\home\site\deployments\tools\deploy.cmd",,0
+	2016-06-10T13:14:15.0436144Z,Handling node.js deployment.,,0
+	2016-06-10T13:14:20.2491507Z,KuduSync.NET from: 'D:\home\site\repository' to: 'D:\home\site\wwwroot',,0
+	2016-06-10T13:14:20.2491507Z,Copying file: 'iisnode.yml',,0
+	2016-06-10T13:14:20.2491507Z,Copying file: 'npm-debug.log',,0
+	2016-06-10T13:14:20.2647732Z,Copying file: 'node_modules\jsonwebtoken\.jshintrc',,0
+	2016-06-10T13:14:20.2647732Z,Copying file: 'node_modules\jsonwebtoken\.npmignore',,0
+	2016-06-10T13:14:20.2647732Z,Copying file: 'node_modules\jsonwebtoken\.travis.yml',,0
+	2016-06-10T13:14:20.2647732Z,Copying file: 'node_modules\jsonwebtoken\CHANGELOG.md',,0
+	2016-06-10T13:14:20.2647732Z,Copying file: 'node_modules\jsonwebtoken\index.js',,0
+	2016-06-10T13:14:20.2647732Z,Copying file: 'node_modules\jsonwebtoken\LICENSE',,0
+	2016-06-10T13:14:20.2812819Z,Copying file: 'node_modules\jsonwebtoken\package.json',,0
+	2016-06-10T13:14:20.2822113Z,Copying file: 'node_modules\jsonwebtoken\README.md',,0
+	2016-06-10T13:14:20.2822113Z,Copying file: 'node_modules\jsonwebtoken\sign.js',,0
+	2016-06-10T13:14:20.2822113Z,Copying file: 'node_modules\jsonwebtoken\bin\changelog',,0
+	2016-06-10T13:14:20.2822113Z,Copying file: 'node_modules\jsonwebtoken\lib\JsonWebTokenError.js',,0
+	2016-06-10T13:14:20.2822113Z,Copying file: 'node_modules\jsonwebtoken\lib\NotBeforeError.js',,0
+	2016-06-10T13:14:20.2978448Z,Copying file: 'node_modules\jsonwebtoken\lib\timespan.js',,0
+	2016-06-10T13:14:20.2978448Z,Copying file: 'node_modules\jsonwebtoken\lib\TokenExpiredError.js',,0
+	2016-06-10T13:14:20.2978448Z,Copying file: 'node_modules\jsonwebtoken\test\async_sign.tests.js',,0
+	2016-06-10T13:14:20.3759724Z,Copying file: 'node_modules\jsonwebtoken\test\encoding.tests.js',,0
+	2016-06-10T13:14:20.3759724Z,Copying file: 'node_modules\jsonwebtoken\test\expires_format.tests.js',,0
+	2016-06-10T13:14:20.3919482Z,Copying file: 'node_modules\jsonwebtoken\test\iat.tests.js',,0
+	2016-06-10T13:14:20.3926697Z,Copying file: 'node_modules\jsonwebtoken\test\invalid_exp.tests.js',,0
+	2016-06-10T13:14:20.3926697Z,Copying file: 'node_modules\jsonwebtoken\test\invalid_pub.pem',,0
+	2016-06-10T13:14:20.3926697Z,Copying file: 'node_modules\jsonwebtoken\test\issue_147.tests.js',,0
+	2016-06-10T13:14:20.3926697Z,Copying file: 'node_modules\jsonwebtoken\test\issue_196.tests.js',,0
+	2016-06-10T13:14:20.3926697Z,Copying file: 'node_modules\jsonwebtoken\test\issue_70.tests.js',,0
+	2016-06-10T13:14:20.4083042Z,Copying file: 'node_modules\jsonwebtoken\test\jwt.hs.tests.js',,0
+	2016-06-10T13:14:20.4083042Z,Copying file: 'node_modules\jsonwebtoken\test\jwt.rs.tests.js',,0
+	2016-06-10T13:14:20.4083042Z,Copying file: 'node_modules\jsonwebtoken\test\non_object_values.tests.js',,0
+	2016-06-10T13:14:20.4083042Z,Copying file: 'node_modules\jsonwebtoken\test\noTimestamp.tests.js',,0
+	2016-06-10T13:14:20.4239726Z,Copying file: 'node_modules\jsonwebtoken\test\priv.pem',,0
+	2016-06-10T13:14:20.4239726Z,Copying file: 'node_modules\jsonwebtoken\test\pub.pem',,0
+	2016-06-10T13:14:20.4239726Z,Copying file: 'node_modules\jsonwebtoken\test\rsa-private.pem',,0
+	2016-06-10T13:14:20.4239726Z,Copying file: 'node_modules\jsonwebtoken\test\rsa-public-key.pem',,0
+	2016-06-10T13:14:24.3207748Z,Copying file: 'node_modules\jsonwebtoken\test\rsa-public-key.tests.js',,0
+	2016-06-10T13:14:24.3207748Z,Copying file: 'node_modules\jsonwebtoken\test\rsa-public.pem',,0
+	2016-06-10T13:14:24.3207748Z,Copying file: 'node_modules\jsonwebtoken\test\set_headers.tests.js',,0
+	2016-06-10T13:14:24.3207748Z,Copying file: 'node_modules\jsonwebtoken\test\undefined_secretOrPublickey.tests.js',,0
+	2016-06-10T13:14:24.3207748Z,Copying file: 'node_modules\jsonwebtoken\test\verify.tests.js',,0
+	2016-06-10T13:14:24.3364716Z,Copying file: 'node_modules\jsonwebtoken\test\wrong_alg.tests.js',,0
+	2016-06-10T13:14:24.3364716Z,Copying file: 'node_modules\jsonwebtoken\test\util\fakeDate.js',,0
+	2016-06-10T13:14:24.7583031Z,Using start-up script server.js from package.json.,,0
+	2016-06-10T13:14:24.7739301Z,Generated web.config.,,0
+	2016-06-10T13:14:24.7739301Z,The package.json file does not specify node.js engine version constraints.,,0
+	2016-06-10T13:14:24.7739301Z,The node.js application will run with the default node.js version 4.2.3.,,0
+	2016-06-10T13:14:24.7895539Z,Selected npm version 3.5.1,,0
+	2016-06-10T13:14:40.0995092Z,codebakerymainapp@0.0.1 D:\home\site\wwwroot,,0
+	2016-06-10T13:14:40.0995092Z,└── jsonwebtoken@6.2.0 ,,0
+	2016-06-10T13:14:40.0995092Z,,,0
+	2016-06-10T13:14:40.1130181Z,Finished successfully.,,0
+2016-06-10T13:14:40.1599041Z,Running post deployment command(s)...,fff9d64c-d052-486f-81ed-e6e9bdda3adf,0
+2016-06-10T13:14:40.2394794Z,Deployment successful.,a21018fe-79c9-4a35-9a47-2158914ec3bf,0

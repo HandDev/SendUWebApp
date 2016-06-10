@@ -1,0 +1,7 @@
+<step title="Error occurred" date="2016-06-09T13:39:33.820" instance="222d3e" type="error" text="Thread was being aborted." stackTrace="   at Kudu.Services.FetchHandler.&lt;PerformDeployment&gt;d__12.MoveNext()
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder.Start[TStateMachine](TStateMachine&amp; stateMachine)
+   at Kudu.Services.FetchHandler.PerformDeployment(DeploymentInfo deploymentInfo, IDisposable tempDeployment, ChangeSet tempChangeSet)
+   at Kudu.Services.FetchHandler.&lt;&gt;c__DisplayClass18_1.&lt;PerformBackgroundDeployment&gt;b__2()
+   at Kudu.Contracts.Infrastructure.LockExtensions.TryLockOperation(IOperationLock lockObj, Action operation, String operationName, TimeSpan timeout)
+   at Kudu.Contracts.Infrastructure.LockExtensions.LockOperation(IOperationLock lockObj, Action operation, String operationName, TimeSpan timeout)
+   at Kudu.Services.FetchHandler.&lt;&gt;c__DisplayClass18_0.&lt;PerformBackgroundDeployment&gt;b__1()" /><!-- duration: 17ms -->

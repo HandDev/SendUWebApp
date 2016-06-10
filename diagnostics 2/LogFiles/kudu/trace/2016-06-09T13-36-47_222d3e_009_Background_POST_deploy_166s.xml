@@ -1,0 +1,41 @@
+<step title="BackgroundTrace" date="2016-06-09T13:36:47.206" instance="222d3e" url="/deploy" method="POST" >
+  <step title="Performing fetch based deployment" date="2016-06-09T13:36:47.206" >
+    <step title="Creating temporary deployment" date="2016-06-09T13:36:47.269" /><!-- duration: 31ms -->
+    <step title="LibGit2SharpRepository Fetch" date="2016-06-09T13:36:47.519" /><!-- duration: 8320ms -->
+    <step title="LibGit2SharpRepository Update" date="2016-06-09T13:36:55.839" /><!-- duration: 69101ms -->
+    <step title="DeploymentManager.Deploy(id)" date="2016-06-09T13:38:05.050" >
+      <step title="Collecting changeset information" date="2016-06-09T13:38:05.066" /><!-- duration: 31ms -->
+      <step title="Updating submodules" date="2016-06-09T13:38:05.113" /><!-- duration: 47ms -->
+      <step title="Determining deployment builder" date="2016-06-09T13:38:05.255" >
+        <step title="Builder is NodeSiteBuilder" date="2016-06-09T13:38:05.395" /><!-- duration: 16ms -->
+      </step><!-- duration: 156ms -->
+      <step title="Copying SSH keys" date="2016-06-09T13:38:05.427" /><!-- duration: 16ms -->
+      <step title="Building" date="2016-06-09T13:38:05.442" >
+        <step title="Generating deployment script" date="2016-06-09T13:38:05.473" >
+          <step title="Executing external process" date="2016-06-09T13:38:05.536" type="process" path="starter.cmd" arguments="&quot;C:\Program Files (x86)\SiteExtensions\Kudu\55.50607.2263\bin\node_modules\.bin\kuduscript.cmd&quot; -y --no-dot-deployment -r &quot;D:\home\site\repository&quot; -o &quot;D:\home\site\deployments\tools&quot; --node --sitePath &quot;D:\home\site\repository&quot;" /><!-- duration: 516ms -->
+          <step title="Saved cached version of the deployment script for command -y --no-dot-deployment -r &quot;D:\home\site\repository&quot; -o &quot;D:\home\site\deployments\tools&quot; --node --sitePath &quot;D:\home\site\repository&quot;" date="2016-06-09T13:38:06.067" /><!-- duration: 0ms -->
+        </step><!-- duration: 594ms -->
+        <step title="Executing external process" date="2016-06-09T13:38:06.131" type="process" path="starter.cmd" arguments="&quot;D:\home\site\deployments\tools\deploy.cmd&quot;" /><!-- duration: 87173ms -->
+        <step title="Error occurred" date="2016-06-09T13:39:33.316" type="error" text="Thread was being aborted." stackTrace="   at System.Threading.Monitor.ObjWait(Boolean exitContext, Int32 millisecondsTimeout, Object obj)
+   at System.Threading.Monitor.Wait(Object obj, Int32 millisecondsTimeout, Boolean exitContext)
+   at System.Threading.Monitor.Wait(Object obj, Int32 millisecondsTimeout)
+   at System.Threading.ManualResetEventSlim.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at System.Threading.Tasks.Task.SpinThenBlockingWait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at System.Threading.Tasks.Task.InternalWait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at Kudu.Core.Infrastructure.Executable.ExecuteInternal(ITracer tracer, Func`2 onWriteOutput, Func`2 onWriteError, Encoding encoding, String arguments, Object[] args)
+   at Kudu.Core.Infrastructure.Executable.ExecuteWithProgressWriter(ILogger logger, ITracer tracer, String arguments, Object[] args)
+   at Kudu.Core.Deployment.Generator.ExternalCommandBuilder.RunCommand(DeploymentContext context, String command, String message)" /><!-- duration: 0ms -->
+      </step><!-- duration: 87983ms -->
+      <step title="Error occurred" date="2016-06-09T13:39:33.425" type="error" text="Thread was being aborted." stackTrace="   at Kudu.Core.Deployment.Generator.GeneratorSiteBuilder.Build(DeploymentContext context)
+   at Kudu.Core.Deployment.DeploymentManager.&lt;Build&gt;d__37.MoveNext()" /><!-- duration: 0ms -->
+    </step><!-- duration: 88374ms -->
+  </step><!-- duration: 166234ms -->
+  <step title="Error occurred" date="2016-06-09T13:39:33.441" type="error" text="Thread was being aborted." stackTrace="   at Kudu.Core.Deployment.DeploymentManager.&lt;Build&gt;d__37.MoveNext()" /><!-- duration: 0ms -->
+  <step title="Cleaning up temp files" date="2016-06-09T13:39:33.441" /><!-- duration: 16ms -->
+  <step title="Error occurred" date="2016-06-09T13:39:33.570" type="error" text="Thread was being aborted." stackTrace="   at Kudu.Core.Deployment.DeploymentManager.&lt;Build&gt;d__37.MoveNext()
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder.Start[TStateMachine](TStateMachine&amp; stateMachine)
+   at Kudu.Core.Deployment.DeploymentManager.Build(ChangeSet changeSet, ITracer tracer, IDisposable deployStep, IFileFinder fileFinder, DeploymentAnalytics deploymentAnalytics)
+   at Kudu.Core.Deployment.DeploymentManager.&lt;DeployAsync&gt;d__25.MoveNext()" /><!-- duration: 0ms -->
+</step><!-- duration: 166363ms -->

@@ -1,0 +1,4 @@
+<exception>System.InvalidOperationException: Stack empty.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Collections.Generic.Stack`1.Pop()
+   at Kudu.Core.Tracing.XmlTracer.WriteEndTrace()</exception>

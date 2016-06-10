@@ -97,7 +97,7 @@ router.post('/userAuth/signup/insertData', function(req, res, next){
         var user = new model(userData);
 
         user.save(function(err, user){
-            res.render('welcome', {username : req.param('username')});
+            res.json({success :true});
         });
       }
   });
