@@ -93,11 +93,12 @@ router.post('/userAuth/signup/insertData', function(req, res, next){
       if(user)
       {
         console.log('data aleray exists!');
+        return res.json({success: false, message : 'Data Already Exists!'});
       }else{
         var user = new model(userData);
 
         user.save(function(err, user){
-            res.json({success :true});
+            return res.json({success :true});
         });
       }
   });
