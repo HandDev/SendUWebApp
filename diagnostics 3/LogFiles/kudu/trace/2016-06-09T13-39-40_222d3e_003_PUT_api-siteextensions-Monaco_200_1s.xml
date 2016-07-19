@@ -1,0 +1,8 @@
+<step title="Incoming Request" date="2016-06-09T13:39:40.703" instance="222d3e" url="/api/siteextensions/Monaco" method="PUT" type="request" pid="7216,2,9" Connection="Keep-Alive" Content-Length="0" Content-Type="application/json" Accept="application/json" Accept-Language="ko" Host="sendumain.scm.azurewebsites.net" User-Agent="Portal-Exp/5.12.6.13 (Kudu) Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/601.6.17 (KHTML%2C like Gecko) Version/9.1.1 Safari/601.6.17" x-ms-client-request-id="21d1f486-953c-4a5a-9be5-beb99cc49022" x-ms-client-session-id="3891564cb4774b9a9acec7aea482ad57" X-SITE-DEPLOYMENT-ID="SendUMain" >
+  <step title="Installing Monaco, version:  from feed: " date="2016-06-09T13:39:40.937" /><!-- duration: 16ms -->
+  <step title="Installing &apos;Monaco&apos; version &apos;&apos; from &apos;&apos;" date="2016-06-09T13:39:41.125" >
+    <step title="Pre-installed site extension found: Monaco, not going to perform new installation." date="2016-06-09T13:39:41.156" /><!-- duration: 0ms -->
+    <step title="Update arm settings for Monaco installation. Status: OK" date="2016-06-09T13:39:41.203" /><!-- duration: 126ms -->
+  </step><!-- duration: 220ms -->
+  <step title="Outgoing response" date="2016-06-09T13:39:41.568" type="response" statusCode="200" statusText="OK" Server="Microsoft-IIS/8.0" x-ms-request-id="3b067333-a50e-4f0b-a5ab-570725e51a3b" Cache-Control="private" X-AspNet-Version="4.0.30319" Content-Type="application/json; charset=utf-8" /><!-- duration: 11ms -->
+</step><!-- duration: 876ms -->

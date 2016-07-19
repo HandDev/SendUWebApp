@@ -1,0 +1,13 @@
+2016-06-10T11:22:07 sandboxproc.exe C:\DWASFiles\Sites\SendUMain\Temp\applicationhost.config
+2016-06-10T11:22:07 env XPROC_TYPENAME=Microsoft.Web.Hosting.Transformers.ApplicationHost.SiteExtensionHelper, Microsoft.Web.Hosting, Version=7.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2016-06-10T11:22:07 env XPROC_METHODNAME=Transform
+2016-06-10T11:22:07 Start 'Monaco' site extension transform
+2016-06-10T11:22:07 :(6,10), No element in the source document matches '/configuration/system.applicationHost/sites/site[@name='~1SendUMain']/application[@path='/Dev']'
+2016-06-10T11:22:07 Not executing Remove (transform line 6, 60)
+2016-06-10T11:22:07 StartSection Executing Insert (transform line 7, 70)
+2016-06-10T11:22:07 on /configuration/system.applicationHost/sites/site[@name='~1SendUMain']/application
+2016-06-10T11:22:07 Applying to 'site' element (no source line info)
+2016-06-10T11:22:07 Inserted 'application' element
+2016-06-10T11:22:07 EndSection Done executing Insert
+2016-06-10T11:22:07 Successful 'D:\home\SiteExtensions\Monaco\applicationHost.xdt' site extension transform
+2016-06-10T11:22:07 sandboxproc.exe complete successfully. Ellapsed = 309.00 ms

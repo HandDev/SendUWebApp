@@ -1,0 +1,4 @@
+<step title="Incoming Request" date="2016-06-09T12:37:13.455" instance="222d3e" url="/deploy?scmType=GitHub" method="POST" type="request" pid="4676,2,9" Connection="Keep-Alive" Content-Length="8826" Content-Type="application/x-www-form-urlencoded" Accept="*/*" Host="sendumain.scm.azurewebsites.net" User-Agent="GitHub-Hookshot/0b0c52f" X-GitHub-Event="ping" X-GitHub-Delivery="e2d77580-2e3e-11e6-8751-9da2496013d1" X-SITE-DEPLOYMENT-ID="SendUMain" >
+  <step title="FetchHandler" date="2016-06-09T12:37:13.596" /><!-- duration: 251ms -->
+  <step title="Outgoing response" date="2016-06-09T12:37:13.894" type="response" statusCode="200" statusText="OK" Server="Microsoft-IIS/8.0" Cache-Control="private" X-AspNet-Version="4.0.30319" /><!-- duration: 14ms -->
+</step><!-- duration: 453ms -->

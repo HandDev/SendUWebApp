@@ -1,0 +1,12 @@
+<step title="BackgroundTrace" date="2016-06-09T12:37:23.874" instance="222d3e" url="/deploy" method="POST" >
+  <step title="Performing fetch based deployment" date="2016-06-09T12:37:23.889" >
+    <step title="LibGit2SharpRepository Initialize" date="2016-06-09T12:37:23.999" >
+      <step title="Configure git server" date="2016-06-09T12:37:24.376" /><!-- duration: 63ms -->
+      <step title="Create deny users for .git folder" date="2016-06-09T12:37:24.454" /><!-- duration: 47ms -->
+      <step title="Configure git-credential" date="2016-06-09T12:37:24.520" /><!-- duration: 45ms -->
+      <step title="Setup post receive hook" date="2016-06-09T12:37:24.581" /><!-- duration: 0ms -->
+    </step><!-- duration: 582ms -->
+    <step title="LibGit2SharpRepository Fetch" date="2016-06-09T12:37:24.661" /><!-- duration: 966ms -->
+    <step title="LibGit2SharpRepository Update" date="2016-06-09T12:37:25.628" /><!-- duration: 16ms -->
+  </step><!-- duration: 1785ms -->
+</step><!-- duration: 1816ms -->

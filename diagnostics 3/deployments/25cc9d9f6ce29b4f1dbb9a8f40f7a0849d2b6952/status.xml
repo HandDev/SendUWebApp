@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<deployment>
+  <id>25cc9d9f6ce29b4f1dbb9a8f40f7a0849d2b6952</id>
+  <author>박재성</author>
+  <deployer></deployer>
+  <authorEmail>jspark141515@gmail.com</authorEmail>
+  <message>uploaded sendU Intro WebPage
+</message>
+  <progress></progress>
+  <status>Success</status>
+  <statusText></statusText>
+  <lastSuccessEndTime>2016-06-09T13:41:00.8907836Z</lastSuccessEndTime>
+  <receivedTime>2016-06-09T13:38:05.0819176Z</receivedTime>
+  <startTime>2016-06-09T13:40:25.9938509Z</startTime>
+  <endTime>2016-06-09T13:41:00.8907836Z</endTime>
+  <complete>True</complete>
+  <is_temp>False</is_temp>
+  <is_readonly>False</is_readonly>
+</deployment>

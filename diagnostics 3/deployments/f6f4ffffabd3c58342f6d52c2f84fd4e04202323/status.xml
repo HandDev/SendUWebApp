@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<deployment>
+  <id>f6f4ffffabd3c58342f6d52c2f84fd4e04202323</id>
+  <author>박재성</author>
+  <deployer>GitHub</deployer>
+  <authorEmail>jspark141515@gmail.com</authorEmail>
+  <message>Changed Azure application configuration
+</message>
+  <progress></progress>
+  <status>Success</status>
+  <statusText></statusText>
+  <lastSuccessEndTime>2016-06-10T13:14:40.2551116Z</lastSuccessEndTime>
+  <receivedTime>2016-06-10T13:14:14.0591929Z</receivedTime>
+  <startTime>2016-06-10T13:14:14.1685732Z</startTime>
+  <endTime>2016-06-10T13:14:40.2551116Z</endTime>
+  <complete>True</complete>
+  <is_temp>False</is_temp>
+  <is_readonly>False</is_readonly>
+</deployment>
