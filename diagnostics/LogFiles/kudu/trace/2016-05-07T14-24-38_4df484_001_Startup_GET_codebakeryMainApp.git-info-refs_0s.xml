@@ -1,3 +1,0 @@
-<step title="Startup Request" date="2016-05-07T14:24:38.465" instance="4df484" url="/codebakeryMainApp.git/info/refs?service=git-upload-pack" method="GET" type="request" pid="82988,2,7" ScmType="LocalGit" >
-  <step title="Cleanup Xml Logs" date="2016-05-07T14:24:38.483" /><!-- duration: 14ms -->
-</step><!-- duration: 31ms -->
