@@ -1,3 +1,0 @@
-<step title="Incoming Request" date="2016-06-09T12:37:22.921" instance="222d3e" url="/api/settings/ScmType" method="GET" type="request" pid="9276,2,9" Connection="Keep-Alive" Host="sendumain.scm.azurewebsites.net" User-Agent="Azure-WebSites-Controller/55.0.8598.26" x-ms-request-id="83db61dc-8e40-4d47-874d-e604e8caefe9" X-SITE-DEPLOYMENT-ID="SendUMain" >
-  <step title="Outgoing response" date="2016-06-09T12:37:23.483" type="response" statusCode="200" statusText="OK" Server="Microsoft-IIS/8.0" x-ms-request-id="83db61dc-8e40-4d47-874d-e604e8caefe9" Cache-Control="private" X-AspNet-Version="4.0.30319" Content-Type="application/json; charset=utf-8" /><!-- duration: 0ms -->
-</step><!-- duration: 563ms -->

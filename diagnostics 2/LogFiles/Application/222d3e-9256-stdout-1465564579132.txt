@@ -1,4 +1,0 @@
-Express server listening on port \\.\pipe\f1b7659f-c980-42dd-9370-87f6cbe1b5b2
-insertData
-username already exists!
-[0mPOST /userAuth/signup/insertData [31m500 [0m698.314 ms - 22[0m

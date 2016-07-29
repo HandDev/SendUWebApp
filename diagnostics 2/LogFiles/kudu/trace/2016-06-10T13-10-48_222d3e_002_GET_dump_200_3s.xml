@@ -1,4 +1,0 @@
-<step title="Incoming Request" date="2016-06-10T13:10:48.250" instance="222d3e" url="/dump" method="GET" type="request" pid="4244,2,8" Connection="Keep-Alive" Content-Length="0" Accept-Charset="UTF-8" Host="sendumain.scm.azurewebsites.net" User-Agent="WindowsAzureXplatCLI/0.9.20" X-SITE-DEPLOYMENT-ID="SendUMain" >
-  <step title="ZipStreamContent.OnZip" date="2016-06-10T13:10:48.766" /><!-- duration: 2735ms -->
-  <step title="Outgoing response" date="2016-06-10T13:10:51.550" type="response" statusCode="200" statusText="OK" Server="Microsoft-IIS/8.0" x-ms-request-id="a08d58e8-dbc6-472a-ae8e-5ae52bb6a873" Content-Disposition="attachment; filename=dump-06-10-13-10-48.zip" Cache-Control="no-cache" X-AspNet-Version="4.0.30319" Content-Type="application/zip" Pragma="no-cache" Expires="-1" /><!-- duration: 14ms -->
-</step><!-- duration: 3313ms -->

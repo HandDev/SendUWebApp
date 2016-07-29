@@ -1,11 +1,6 @@
+//이용약관, 공지사항 등을 제공
 var express = require('express'),
-    router = express.Router(),
-    mongoose = require('mongoose'),
-    Article = mongoose.model('Article'),
-    path = require('path'),
-    jwt = require('jsonwebtoken');
-
-var model = require('../models/user.js');
+    router = express.Router();
 
 //secret key for json web token
 var superSecret = 'ilovescotchscotchyscotchscotch';
