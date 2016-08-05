@@ -3,32 +3,32 @@ var path = require('path'),
     env = process.env.NODE_ENV || 'development';
 
 var config = {
-  development: {
-    root: rootPath,
-    app: {
-      name: 'codebakerymainapp'
+    development: {
+        root: rootPath,
+        app: {
+            name: 'sendumainapp'
+        },
+        port: process.env.PORT || 3000,
+        db: 'mongodb://104.41.183.65:27017/UserManage'
     },
-    port: process.env.PORT || 3000,
-    db: 'mongodb://52.160.105.205/newDB'
-  },
 
-  test: {
-    root: rootPath,
-    app: {
-      name: 'codebakerymainapp'
+    test: {
+        root: rootPath,
+        app: {
+            name: 'sendumainapp'
+        },
+        port: process.env.PORT || 3000,
+        db: 'mongodb://104.41.183.65:27017/UserManage'
     },
-    port: process.env.PORT || 3000,
-    db: 'mongodb://52.160.105.205/newDB'
-  },
 
-  production: {
-    root: rootPath,
-    app: {
-      name: 'codebakerymainapp'
-    },
-    port: process.env.PORT || 3000,
-    db: 'mongodb://52.160.105.205/newDB'
-  }
+    production: {
+        root: rootPath,
+        app: {
+            name: 'sendumainapp'
+        },
+        port: process.env.PORT || 3000,
+        db: 'mongodb://104.41.183.65:27017/UserManage'
+    }
 };
 
 module.exports = config[env];

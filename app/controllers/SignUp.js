@@ -55,6 +55,9 @@ router.post('/user/signup/insertData', function(req, res, next) {
         'age': req.param('age')
     };
 
+    console.log('userName : ');
+    console.log(req.param('username'));
+    console.log('model.find');
     model.find({
         userName: req.param('username')
     }, function(err, user) {
@@ -63,22 +66,31 @@ router.post('/user/signup/insertData', function(req, res, next) {
         }
     });
 
-    model.findOne(userData, function(err, user) {
-        if (user) {
-            console.log('data aleray exists!');
-            return res.json({
-                success: false,
-                message: 'Data Already Exists!'
-            });
-        } else {
-            var user = new model(userData);
+    var user = new model(userData);
 
-            user.save(function(err, user) {
-                return res.json({
-                    success: true
-                });
-            });
-        }
+    user.save(function(err, user) {
+        return res.json({
+            success: true
+        });
     });
+    /*
+            console.log('model.findOne');
+            model.findOne(userData, function(err, user) {
+                if (user) {
+                    console.log('data aleray exists!');
+                    return res.json({
+                        success: false,
+                        message: 'Data Already Exists!'
+                    });
+                } else {
+                    var user = new model(userData);
 
+                    user.save(function(err, user) {
+                        return res.json({
+                            success: true
+                        });
+                    });
+                }
+            });
+*/
 });
