@@ -44,6 +44,13 @@ router.get('/user/signup/forms', function(req, res, next) {
     res.render('signup_form');
 });
 
+router.get('/user/debug/allUsers', function(req, res) {
+    model.find(function(err, users) {
+        return res.json(users)
+    });
+
+});
+
 router.post('/user/signup/insertData', function(req, res, next) {
 
     console.log('insertData');
