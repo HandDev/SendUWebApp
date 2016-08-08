@@ -1,4 +1,4 @@
-https://secure.travis-ci.org/HandDev/SendUWebApp.png
+!(https://secure.travis-ci.org/HandDev/SendUWebApp.png)
 
 # SendUWebApp
 
