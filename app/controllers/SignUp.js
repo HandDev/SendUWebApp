@@ -5,6 +5,10 @@ var express = require('express'),
     path = require('path'),
     jwt = require('jsonwebtoken');
 
+//For generating user uuid
+var uuid = require('node-uuid');
+//var uuid1 = uuid.v1();
+
 var model = require('../models/user.js');
 
 //secret key for json web token
@@ -59,7 +63,8 @@ router.post('/user/signup/insertData', function(req, res, next) {
         'userName': req.param('username'),
         'password': req.param('password'),
         'email': req.param('email'),
-        'age': req.param('age')
+        'age': req.param('age'),
+        'uuid': uuid.v1()
     };
 
     console.log('userName : ');
