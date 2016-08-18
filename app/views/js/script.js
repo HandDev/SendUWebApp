@@ -46,18 +46,18 @@ $(document).ready(function() {
             });
             $(".navbar-brand img").css({
                 'padding-top': '20px'
-            });
-            $(".navbar-default").css({
-                'background-color': 'rgba(59, 59, 59, 0)'
-            });
-        }
-    });
+});
+$(".navbar-default").css({
+    'background-color': 'rgba(59, 59, 59, 0)'
+});
+}
+});
 });
 
 
 
 
- // MENU SECTION ACTIVE
+// MENU SECTION ACTIVE
 $(document).ready(function() {
 
     "use strict";
@@ -340,15 +340,15 @@ $(document).ready(function() {
 
 
 
-
-//VIDEO BACKGROUND
-$(document).ready(function() {
-  var videobackground = new $.backgroundVideo($('body'), {
-    "align": "centerXY",
-    "width": 1280,
-    "height": 720,
-    "path": "media/",
-    "filename": "cloud",
-    "types": ["mp4","ogg","webm"]
-  });
-});
+// 백그라운드 비디오 처리 안하는 거 같은데 그냥 지워도 상관 X
+// //VIDEO BACKGROUND
+// $(document).ready(function() {
+//   var videobackground = new $.backgroundVideo($('body'), {
+//     "align": "centerXY",
+//     "width": 1280,
+//     "height": 720,
+//     "path": "media/",
+//     "filename": "cloud",
+//     "types": ["mp4","ogg","webm"]
+//   });
+// });
