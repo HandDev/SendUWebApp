@@ -9,7 +9,7 @@ var config = {
             name: 'sendumainapp'
         },
         port: process.env.PORT || 3000,
-        db: 'mongodb://104.41.183.65:27017/UserManage'
+        db: 'mongodb://sendukor7833.cloudapp.net:27017/UserManage'
     },
 
     test: {
@@ -18,7 +18,7 @@ var config = {
             name: 'sendumainapp'
         },
         port: process.env.PORT || 3000,
-        db: 'mongodb://104.41.183.65:27017/UserManage'
+        db: 'mongodb://sendukor7833.cloudapp.net:27017/UserManage'
     },
 
     production: {
@@ -27,7 +27,7 @@ var config = {
             name: 'sendumainapp'
         },
         port: process.env.PORT || 3000,
-        db: 'mongodb://104.41.183.65:27017/UserManage'
+        db: 'mongodb://sendukor7833.cloudapp.net:27017/UserManage'
     }
 };
 
