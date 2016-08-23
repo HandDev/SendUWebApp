@@ -19,7 +19,7 @@ module.exports = function(app) {
 // ?username=[username]&password=[password]
 router.get('/userAuth/authenticate', function(req, res) {
     model.findOne({
-        'username': req.param('userName'),
+        'username': req.param('email'),
         'password': req.param('password')
     }, function(err, user) {
         if (err) throw err;

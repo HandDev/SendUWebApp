@@ -63,8 +63,9 @@ router.post('/user/signup/insertData', function(req, res, next) {
         'userName': req.param('username'),
         'password': req.param('password'),
         'email': req.param('email'),
-        'age': req.param('age'),
-        'uuid': uuid.v1()
+        'birth': req.param('birth'),
+        'address' : req.param('address'),
+        'uuid': req.param('uuid')
     };
 
     console.log('userName : ');
