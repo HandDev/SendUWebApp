@@ -6,11 +6,19 @@ var express = require('express'),
 var superSecret = 'ilovescotchscotchyscotchscotch';
 
 var userTerms = require('../../config/userTerms.js');
+var templates = require('../../config/templates.js');
 
 module.exports = function(app) {
     app.use('/', router);
 };
 
-router.get('/resources/userTerms', function(res, req) {
-    res.send(userTerms);
+router.get('/resources/userTerms', function(req, res) {
+    console.log(userTerms);
+    res.setHeader('Content-Type', 'application/json');
+    res.send(userTerms, null, 3);
+});
+
+router.get('/resources/templates', function(req, res){
+    res.setHeader('Content-Type', 'application/json');
+    res.send(templates);
 });

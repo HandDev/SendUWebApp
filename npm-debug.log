@@ -1,5 +1,8 @@
 0 info it worked if it ends with ok
-1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'start' ]
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/lib/node_modules/npm/bin/npm-cli.js',
+1 verbose cli   'run-script',
+1 verbose cli   'start' ]
 2 info using npm@3.9.5
 3 info using node@v6.2.2
 4 verbose run-script [ 'prestart', 'start', 'poststart' ]
@@ -7,7 +10,7 @@
 6 silly lifecycle codebakerymainapp@0.0.1~prestart: no script for prestart, continuing
 7 info lifecycle codebakerymainapp@0.0.1~start: codebakerymainapp@0.0.1
 8 verbose lifecycle codebakerymainapp@0.0.1~start: unsafe-perm in lifecycle true
-9 verbose lifecycle codebakerymainapp@0.0.1~start: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/Users/parkjaesung/Documents/Github/SendUWebApp/node_modules/.bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/apache-ant-1.9.7/:/ur/local/apache-ant-1.9.7/bin:/usr/local/go/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/usr/local/apache-ant-1.9.7//bin:/usr/local/apache-ant-1.9.7//bin
+9 verbose lifecycle codebakerymainapp@0.0.1~start: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/Users/parkjaesung/Documents/Github/SendUWebApp/node_modules/.bin:/usr/local/bin:/Library/Frameworks/Python.framework/Versions/3.6/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/apache-ant-1.9.7/:/ur/local/apache-ant-1.9.7/bin:/usr/local/go/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/usr/local/apache-ant-1.9.7//bin
 10 verbose lifecycle codebakerymainapp@0.0.1~start: CWD: /Users/parkjaesung/Documents/Github/SendUWebApp
 11 silly lifecycle codebakerymainapp@0.0.1~start: Args: [ '-c', 'node server.js' ]
 12 silly lifecycle codebakerymainapp@0.0.1~start: Returned: code: 1  signal: null
@@ -25,7 +28,7 @@
 15 verbose pkgid codebakerymainapp@0.0.1
 16 verbose cwd /Users/parkjaesung/Documents/Github/SendUWebApp
 17 error Darwin 15.5.0
-18 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "start"
+18 error argv "/usr/local/bin/node" "/usr/local/lib/node_modules/npm/bin/npm-cli.js" "run-script" "start"
 19 error node v6.2.2
 20 error npm  v3.9.5
 21 error code ELIFECYCLE
