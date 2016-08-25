@@ -22,3 +22,9 @@ router.get('/resources/templates', function(req, res){
     res.setHeader('Content-Type', 'application/json');
     res.send(templates);
 });
+
+//echo address info
+router.post('/resources/address', function (req,res) {
+    var address = req.param('address');
+    res.send(address);
+})
