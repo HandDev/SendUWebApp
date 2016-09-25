@@ -42,6 +42,20 @@ router.use('/api', function(req, res, next) {
 
 });
 
+router.get('/api/user/:Email', function(req, res){
+	var email = req.params.Email;
+	
+	console.log('search user info email : ', email);
+
+	model.find({
+		email : req.params.Email
+	}, function(err, user){
+		if(err) throw err;
+		
+		return res.json(user);
+	});
+});
+
 router.get('/api/dbTest', function(req, res, next) {
     var userData = {
         'useName': 'parkjaesung',
