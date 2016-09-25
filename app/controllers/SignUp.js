@@ -55,6 +55,33 @@ router.get('/user/debug/allUsers', function(req, res) {
 
 });
 
+router.get('/user/email/:Email', function(req,res){
+	var email = req.params.Email;
+	console.log('email : ', email); 
+	
+	model.findOne({
+	 email: req.params.Email
+	}, function(err, user){
+	
+	console.log('user : ');
+	console.log(user); 
+	if(user){
+		console.log('email already exists!');
+		return res.json({
+			success : false,
+			message : 'Email already exists!'
+		});	
+	}
+	
+	console.log('email not exists!');
+	
+	return res.json({
+		success : true
+	});
+
+	});
+});
+
 router.post('/user/signup/insertData', function(req, res, next) {
 
     console.log('insertData');
@@ -64,6 +91,7 @@ router.post('/user/signup/insertData', function(req, res, next) {
         'password': req.param('password'),
         'email': req.param('email'),
         'birth': req.param('birth'),
+	'numAddress' : req.param('numaddress'),
         'address' : req.param('address'),
         'uuid': req.param('uuid')
     };
@@ -72,11 +100,16 @@ router.post('/user/signup/insertData', function(req, res, next) {
     console.log(req.param('username'));
     console.log('model.find');
     model.find({
-        userName: req.param('username')
+        email: req.param('email')
     }, function(err, user) {
+
         if (user) {
-            console.log('username already exists!');
-        }
+            console.log('email already exists!');
+            return res.json({
+		success : false,
+		message : 'Email already exists!'
+		});
+	}
     });
 
     var user = new model(userData);
