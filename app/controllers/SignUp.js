@@ -5,6 +5,8 @@ var express = require('express'),
     path = require('path'),
     jwt = require('jsonwebtoken');
 
+var path = require('path');
+
 //For generating user uuid
 var uuid = require('node-uuid');
 //var uuid1 = uuid.v1();
@@ -24,8 +26,19 @@ router.get('/', function(req, res, next) {
     res.render('index.html');
 });
 
-router.get('/address', function(req, res){
-    res.render('address.html');
+/*
+router.get('/address', function(req, res, next){
+    res.render('index.html');
+});
+*/
+router.get('/test/address', function(req, res, next){
+
+    try {
+        //console.log(__dirname);
+        res.sendFile(path.resolve(__dirname + '/../views/address.html'));
+    }catch(exception){
+        console.log(exception);
+    }
 });
 
 router.get('/userTerms', function(req, res) {

@@ -9,7 +9,7 @@ var config = {
             name: 'sendumainapp'
         },
         port: process.env.PORT || 3000,
-        db: 'mongodb://localhost:27017/UserManage'
+        db: 'mongodb://ec2-52-78-159-163.ap-northeast-2.compute.amazonaws.com:27017/UserManage'
     },
 
     test: {
@@ -18,7 +18,7 @@ var config = {
             name: 'sendumainapp'
         },
         port: process.env.PORT || 3000,
-        db: 'mongodb://localhost:27017/UserManage'
+        db: 'mongodb://ec2-52-78-159-163.ap-northeast-2.compute.amazonaws.com:27017/UserManage'
     },
 
     production: {
@@ -27,7 +27,7 @@ var config = {
             name: 'sendumainapp'
         },
         port: process.env.PORT || 3000,
-        db: 'mongodb://localhost:27017/UserManage'
+        db: 'mongodb://ec2-52-78-159-163.ap-northeast-2.compute.amazonaws.com:27017/UserManage'
     }
 };
 
