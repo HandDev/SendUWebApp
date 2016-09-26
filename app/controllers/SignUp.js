@@ -24,6 +24,10 @@ router.get('/', function(req, res, next) {
     res.render('index.html');
 });
 
+router.get('/address', function(req, res){
+    res.render('address.html');
+});
+
 router.get('/userTerms', function(req, res) {
     res.send(userTerms);
 });
