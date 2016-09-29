@@ -1,17 +1,50 @@
 <html>
 
 <head>
-<meta charset="utf-8">
+    <meta charset="utf-8">
+    <style>
+        input {
+            margin-bottom: 7px;
+        }
+        input:last-child {
+            margin-bottom: 0;
+        }
+        input[type=text] {
+            height: 35px!important;
+            font-size: 13px;
+            padding: 0 10px;
+            outline: none;
+            border: 1px solid #ccc;
+            font-weight: 200;
+            width: 400px;
+        }
+        .short {
+            width: 100px!important;
+        }
+        .code {
+            background: #f0f0f0!important;
+        }
+        input[type=button] {
+            border: 1px solid #222;
+            background: #222;
+            color: #fff;
+            padding: 0;
+            height: 35px!important;
+            font-size: 13px;
+            font-weight: 200;
+            margin-left: 7px;
+        }
+    </style>
 </head>
 
-<input type="text" id="sample2_postcode" placeholder="우편번호">
-<input type="button" onclick="sample2_execDaumPostcode()" value="우편번호 찾기"><br>
-<input type="text" id="sample2_address" placeholder="한글주소">
+<input type="text" id="sample2_postcode" class="code short" placeholder="우편번호">
+<input type="button" onclick="sample2_execDaumPostcode()" class="short" value="주소찾기"><br />
+<input type="text" id="sample2_address" placeholder="한글주소"><br />
 <input type="text" id="sample2_addressEnglish" placeholder="영문주소">
 
 <!-- iOS에서는 position:fixed 버그가 있음, 적용하는 사이트에 맞게 position:absolute 등을 이용하여 top,left값 조정 필요 -->
 <div id="layer" style="display:none;position:fixed;overflow:hidden;z-index:1;-webkit-overflow-scrolling:touch;">
-<img src="//i1.daumcdn.net/localimg/localimages/07/postcode/320/close.png" id="btnCloseLayer" style="cursor:pointer;position:absolute;right:-3px;top:-3px;z-index:1" onclick="closeDaumPostcode()" alt="닫기 버튼">
+    <img src="//i1.daumcdn.net/localimg/localimages/07/postcode/320/close.png" id="btnCloseLayer" style="cursor:pointer;position:absolute;right:-3px;top:-3px;z-index:1" onclick="closeDaumPostcode()" alt="닫기 버튼">
 </div>
 
 <script src="http://dmaps.daum.net/map_js_init/postcode.v2.js"></script>
