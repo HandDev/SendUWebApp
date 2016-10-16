@@ -56,6 +56,25 @@ router.get('/api/user/:Email', function(req, res){
 	});
 });
 
+router.post('/api/user/:Email/address', function(req, res){
+    var email = req.params.Email;
+
+    console.log('add address for user : ', email);
+
+    model.find({
+        email: req.params.Email
+    }, function(err, user){
+        if(err) throw err;
+
+        user.address = req.param('address');
+        user.numAddress = req.param('numAddress');
+
+        user.save(function(err){
+           if(err) throw err;
+        });
+    });
+});
+
 router.get('/api/dbTest', function(req, res, next) {
     var userData = {
         'useName': 'parkjaesung',
