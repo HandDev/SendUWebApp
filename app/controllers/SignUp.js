@@ -26,21 +26,6 @@ router.get('/', function(req, res, next) {
     res.render('index.html');
 });
 
-/*
-router.get('/address', function(req, res, next){
-    res.render('index.html');
-});
-*/
-router.get('/test/address', function(req, res, next){
-
-    try {
-        //console.log(__dirname);
-        res.sendFile(path.resolve(__dirname + '/../views/address.html'));
-    }catch(exception){
-        console.log(exception);
-    }
-});
-
 router.get('/userTerms', function(req, res) {
     res.send(userTerms);
 });

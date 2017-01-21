@@ -9,7 +9,7 @@ var config = {
             name: 'sendumainapp'
         },
         port: process.env.PORT || 3000,
-        db: 'mongodb://sendu.kr:27017/UserManage'
+        db: 'mongodb://127.0.0.1:27017/SendU'
     },
 
     test: {
@@ -18,7 +18,7 @@ var config = {
             name: 'sendumainapp'
         },
         port: process.env.PORT || 3000,
-        db: 'mongodb://sendu.kr:27017/UserManage'
+        db: 'mongodb://127.0.0.1:27017/SendU'
     },
 
     production: {
@@ -27,7 +27,7 @@ var config = {
             name: 'sendumainapp'
         },
         port: process.env.PORT || 3000,
-        db: 'mongodb://sendu.kr:27017/UserManage'
+        db: 'mongodb://127.0.0.1:27017/SendU'
     }
 };
 

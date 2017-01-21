@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="f2c474dd-edea-44a8-8c16-f78567b12011" name="SendU-AWS EC2" url="http://sendu.kr">
+        <fileTransfer host="sendu.kr" port="22" privateKey="$PROJECT_DIR$/../../../SendU.pem" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

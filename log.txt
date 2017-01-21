@@ -1,0 +1,211 @@
+commit fb9c8af89d2b81745b565e19e78ff33a4ca57edc
+Author: ParkJaesung <jspark141515@gmail.com>
+Date:   Sun Oct 16 21:58:46 2016 +0900
+
+    Add API for updating address information
+    
+    Add API for updating address information
+
+commit 47cacd0a04c593ec0bbe023031fe087230078188
+Author: ParkJaesung <jspark141515@gmail.com>
+Date:   Thu Sep 29 12:17:41 2016 +0900
+
+    Updated main web page
+    
+    Updated main web page
+
+commit 8f4bdfaaa36f493b7a0a30d5769430dc64ab5649
+Author: ParkJaesung <jspark141515@gmail.com>
+Date:   Thu Sep 29 12:17:30 2016 +0900
+
+    Updated address.html
+    
+    Updated address.html by KIM JUNHO
+
+commit 9169a4d55e7a640673b1a37b074e4107ba039379
+Author: ParkJaesung <jspark141515@gmail.com>
+Date:   Mon Sep 26 20:02:26 2016 +0900
+
+    Added test url '/test/address/' for address API
+
+commit 269710de38b16b2479c77e718bd492b1dd81f149
+Author: ParkJaesung <jspark141515@gmail.com>
+Date:   Mon Sep 26 18:08:01 2016 +0900
+
+    Added address.html
+    
+    Added address.html & routing in Signup.js
+
+commit 53d86233c65ea7211234fefb4648bf38b1debb30
+Author: ParkJaesung <jspark141515@gmail.com>
+Date:   Sun Sep 25 13:18:51 2016 +0000
+
+    Created API for getting userInfo by email
+
+commit e791fb7ca1ec8fa31c0e942ea1411606d6eb856c
+Author: ParkJaesung <jspark141515@gmail.com>
+Date:   Sun Sep 25 07:09:11 2016 +0000
+
+    Added new API for checking email existence & added new param query for inserting user data into db
+
+commit 6c2db0351a529ca66ec595c2736e902061a6558a
+Author: ParkJaesung <jspark141515@gmail.com>
+Date:   Sun Sep 25 07:06:32 2016 +0000
+
+    Changed user schema
+
+commit 62ae2f3877bb24b48f248c7af248d7eace09b09b
+Author: root <root@ip-172-31-1-0.ap-northeast-2.compute.internal>
+Date:   Sun Sep 25 07:04:57 2016 +0000
+
+    Changed db url
+
+commit af13936d00a01bd0a6f42c0cf5b31ee994f1f315
+Author: System Administrator <jspark141515@gmail.com>
+Date:   Thu Aug 25 22:36:08 2016 +0900
+
+    search email for auth
+
+commit a7ce70716ff6038545096a66f0be36d2d57d1d80
+Author: 박재성 <jspark141515@gmail.com>
+Date:   Thu Aug 25 21:56:56 2016 +0900
+
+    Created url /resources/address
+
+commit de9f32b4be605632b905466b1c3e7b79c422d2cc
+Author: System Administrator <root@bagjaeseong-ui-MacBook-Pro.local>
+Date:   Tue Aug 23 20:31:11 2016 +0900
+
+    changed db schema
+
+commit fada15e1e296782d520f01c557aee3e6ea412514
+Author: System Administrator <root@bagjaeseong-ui-MacBook-Pro.local>
+Date:   Tue Aug 23 14:16:15 2016 +0900
+
+    Added templates.js for providing JSON object for templateurl & fixed routing bug in Resourceupdates.sj
+
+commit 068477a350922135dea3328fec5a81825dae6635
+Author: 박재성 <jspark141515@gmail.com>
+Date:   Mon Aug 22 22:32:03 2016 +0900
+
+    Changed db domain
+
+commit 93f0326eeb638c57005ab6f64b42955dedc8c94b
+Author: System Administrator <root@bagjaeseong-ui-MacBook-Pro.local>
+Date:   Thu Aug 18 21:55:16 2016 +0900
+
+    Changed Fabix to Pabix
+
+commit 7861f29e1adca9f2dcd894cb8891f4505fd1cae0
+Author: System Administrator <root@bagjaeseong-ui-MacBook-Pro.local>
+Date:   Thu Aug 18 21:49:02 2016 +0900
+
+    Changed WebPage contents
+
+commit 49ed4c3ebda4ffcb8697244da60c47817579d747
+Author: System Administrator <root@bagjaeseong-ui-MacBook-Pro.local>
+Date:   Thu Aug 18 20:20:58 2016 +0900
+
+    Webstorm Integratoin
+
+commit 58a8402b685397f705bbfc556e4687d50bbc41e9
+Author: System Administrator <root@bagjaeseong-ui-MacBook-Pro.local>
+Date:   Wed Aug 17 22:18:57 2016 +0900
+
+    Updated Web page contents
+
+commit 9e953f97008a3287c412920b17624b4e80cd5b45
+Author: 박재성 <jspark141515@gmail.com>
+Date:   Mon Aug 8 22:47:41 2016 +0900
+
+    changed README with travis-ci build status image
+
+commit dc4c47f7540a2ae2273a633d1cc859b5bceb3c19
+Author: 박재성 <jspark141515@gmail.com>
+Date:   Mon Aug 8 22:46:07 2016 +0900
+
+    changed README with travis-ci build status image
+
+commit b38367716ae56969bc82723ced460f50070f20da
+Author: 박재성 <jspark141515@gmail.com>
+Date:   Mon Aug 8 22:44:32 2016 +0900
+
+    changed README with travis-ci build status image
+
+commit 0cb97f04da987d96efa58a009ffdd020adb5a6df
+Author: 박재성 <jspark141515@gmail.com>
+Date:   Mon Aug 8 22:35:59 2016 +0900
+
+    changed travis yml
+
+commit 884d77d0f16419d0c60e788b8c35875ee75c4b6f
+Author: 박재성 <jspark141515@gmail.com>
+Date:   Mon Aug 8 22:31:50 2016 +0900
+
+    added travis.yml
+
+commit 2374326b297a7ea88d1c2c02f4f8ec387aa25038
+Author: 박재성 <jspark141515@gmail.com>
+Date:   Mon Aug 8 22:10:28 2016 +0900
+
+    Added url /user/debug/allusers
+
+commit 630ee55905eb62da7678c0a71ed991237ecd93db
+Author: 박재성 <jspark141515@gmail.com>
+Date:   Fri Aug 5 10:58:01 2016 +0900
+
+    Moved MongoDB
+
+commit 69fdfff555c68e2eb47ab1cfb5ec2aef6dca238c
+Author: 박재성 <jspark141515@gmail.com>
+Date:   Fri Jul 29 17:04:03 2016 +0900
+
+    Deleted all diagnostics log from azure
+
+commit da399e22a2558663112ae4af7697a6d9aa005112
+Author: 박재성 <jspark141515@gmail.com>
+Date:   Thu Jul 28 00:25:46 2016 +0900
+
+    created 4 controllers instead of using one controller
+
+commit e6fbafee8c122b1c299901b947c3183859a36782
+Author: 박재성 <jspark141515@gmail.com>
+Date:   Tue Jul 19 14:25:06 2016 +0900
+
+    Changed README.md
+
+commit 76372bec9bfc8894fc866bc064dc089e9d8c5b01
+Author: 박재성 <jspark141515@gmail.com>
+Date:   Tue Jul 19 14:21:42 2016 +0900
+
+    Changed Main Web Page
+
+commit d553dad12d5b024ce859a110243f7b98188a6ddf
+Author: 박재성 <jspark141515@gmail.com>
+Date:   Fri Jun 10 22:25:35 2016 +0900
+
+    Add return code on insetData URL
+
+commit 13d94c1e464ea5d04b5b53c53b87f64ec54d7ce1
+Author: 박재성 <jspark141515@gmail.com>
+Date:   Fri Jun 10 22:21:25 2016 +0900
+
+    changed signup method
+
+commit f6f4ffffabd3c58342f6d52c2f84fd4e04202323
+Author: 박재성 <jspark141515@gmail.com>
+Date:   Fri Jun 10 22:13:53 2016 +0900
+
+    Changed Azure application configuration
+
+commit e69d0aea8434f7751cb2f71db0fd95c5ca183ddf
+Author: 박재성 <jspark141515@gmail.com>
+Date:   Fri Jun 10 20:55:46 2016 +0900
+
+    removed mobirise link
+
+commit 25cc9d9f6ce29b4f1dbb9a8f40f7a0849d2b6952
+Author: 박재성 <jspark141515@gmail.com>
+Date:   Thu Jun 9 22:35:43 2016 +0900
+
+    uploaded sendU Intro WebPage
